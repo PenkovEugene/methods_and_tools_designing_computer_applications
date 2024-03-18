@@ -64,7 +64,7 @@ root.resizable( width=False, height=False )
 root.geometry( "500x300" )
 root[ "bg" ] = "grey"
 root.title( "Practice 1" )
-root.iconbitmap( "app_logo.ico" )
+# root.iconbitmap( "app_logo.ico" )
 
 first_number = Entry( width=20 )
 second_number = Entry( width=20 )
