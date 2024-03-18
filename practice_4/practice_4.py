@@ -45,4 +45,13 @@ Button(
 file_data = Text()
 file_data.pack()
 
+scrollX = Scrollbar( command=file_data.xview )
+scrollY = Scrollbar( command=file_data.yview )
+
+scrollX.pack( side=LEFT, fill=X )
+scrollY.pack( side=LEFT, fill=Y )
+
+file_data.config(xscrollcommand=scrollX.set)
+file_data.config(yscrollcommand=scrollY.set)
+
 root.mainloop()

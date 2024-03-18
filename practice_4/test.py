@@ -1,2 +1,2 @@
-# тестовый текст
+# text for test�
 print("Hello World!")
